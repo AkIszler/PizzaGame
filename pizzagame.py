@@ -46,13 +46,13 @@ class foodClass: # class for talking to user
 
                 if asnwer == "y":
                     print("well thats just silly, im a computer")
-                    yes = False
+                    break
                 elif asnwer == "n":
                     print("well, good I wouldnt know, as i am a computer")
-                    yes = False
+                    break
                 elif asnwer != "y" or asnwer!= "n":
                     print("well, you dont know how to answer a question")
-                    yes = True
+                    
     else: print("thanks for playing")
     more = "no"    
          
